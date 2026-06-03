@@ -1,0 +1,51 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "Darcula",
+  "description": "A port of the JetBrains Darcula color theme for Google Chrome.",
+  "icons": {
+    "128": "images/icon128.png"
+  },
+  "theme": {
+    "images": {
+      "theme_ntp_background": "images/ntp_background.png"
+    },
+    "colors": {
+      "frame": [43, 43, 43],
+      "frame_inactive": [49, 51, 53],
+      "frame_incognito": [30, 30, 30],
+      "frame_incognito_inactive": [38, 38, 38],
+
+      "toolbar": [60, 63, 65],
+      "toolbar_button_icon": [169, 183, 198],
+
+      "tab_text": [169, 183, 198],
+      "tab_background_text": [128, 128, 128],
+      "tab_background_text_inactive": [110, 110, 110],
+      "background_tab": [43, 43, 43],
+
+      "bookmark_text": [169, 183, 198],
+
+      "omnibox_background": [69, 73, 74],
+      "omnibox_text": [169, 183, 198],
+
+      "ntp_background": [43, 43, 43],
+      "ntp_text": [169, 183, 198],
+      "ntp_link": [104, 151, 187],
+      "ntp_header": [60, 63, 65],
+
+      "button_background": [60, 63, 65]
+    },
+    "tints": {
+      "buttons": [-1.0, -1.0, 0.85],
+      "frame": [-1.0, -1.0, -1.0],
+      "frame_inactive": [-1.0, -1.0, -1.0],
+      "background_tab": [-1.0, -1.0, 0.55]
+    },
+    "properties": {
+      "ntp_background_alignment": "center",
+      "ntp_background_repeat": "repeat",
+      "ntp_logo_alternate": 1
+    }
+  }
+}
